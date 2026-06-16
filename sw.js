@@ -1,8 +1,8 @@
 // FIFA 2026 Hub — service worker
-// App shell is cached so it loads instantly and works offline.
-// data.json is ALWAYS fetched fresh from the network when online, so you see
-// the latest scores every time you open the app — no re-uploading needed.
-const CACHE = 'fifa2026-hub-v6';
+// App shell loads instantly and works offline. index.html is fetched network-first
+// when online, so new versions appear on next open with no cache-clearing.
+// data.json is ALWAYS fetched fresh from the network when online.
+const CACHE = 'fifa2026-hub-v7';
 const SHELL = [
   './',
   './index.html',
@@ -55,6 +55,25 @@ self.addEventListener('fetch', (e) => {
           return cached || network;
         })
       )
+    );
+    return;
+  }
+
+  // index.html / navigations -> network-first, so a fresh app shell loads
+  // whenever you're online (new versions show up on next open, no cache-clearing).
+  // Falls back to the cached shell only when offline.
+  const isNavigation = req.mode === 'navigate';
+  const isShellDoc = url.origin === self.location.origin &&
+    (url.pathname.endsWith('/') || url.pathname.endsWith('index.html'));
+  if (isNavigation || isShellDoc) {
+    e.respondWith(
+      fetch(req).then((res) => {
+        if (res && res.ok) {
+          const copy = res.clone();
+          caches.open(CACHE).then((c) => c.put('./index.html', copy));
+        }
+        return res;
+      }).catch(() => caches.match('./index.html').then((m) => m || caches.match('./')))
     );
     return;
   }
