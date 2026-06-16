@@ -260,7 +260,7 @@ nav.tabs button.active{color:#04130c;background:var(--accent)}
       <button data-tab="players">Player Stats</button>
     </nav>
     <div class="right">
-      <div class="refresh" id="refresh"><span class="dot"></span><span id="refreshtxt">Refreshed just now</span></div>
+      <div class="refresh" id="refresh"><span class="dot"></span><span id="refreshtxt">Last update —</span></div>
       <button class="audit-chip" id="auditChip">🛡️ Verified</button>
       <button class="btn-ghost" id="reloadbtn">↻ Refresh &amp; audit</button>
     </div>
@@ -497,11 +497,14 @@ document.querySelectorAll("nav.tabs button").forEach(b=>{b.onclick=()=>{
  document.querySelectorAll(".panel").forEach(x=>x.classList.remove("active"));
  b.classList.add("active");$("#"+b.dataset.tab).classList.add("active");window.scrollTo({top:0,behavior:"smooth"});};});
 
-/* refresh */
+/* refresh — shows the absolute date/time the data was last refreshed (from meta.lastUpdated),
+   not how long this browser tab has been open. */
 let loadedAt=Date.now();
-function tickRefresh(){const s=Math.floor((Date.now()-loadedAt)/1000);const r=$("#refresh"),t=$("#refreshtxt");
- let txt=s<5?"Refreshed just now":s<60?`Refreshed ${s}s ago`:`Refreshed ${Math.floor(s/60)}m ago`;t.textContent=txt;
- if(s>90){r.classList.add("stale");t.textContent=txt+" · stale";}}
+function fmtLoaded(){return new Date(loadedAt).toLocaleString([], {weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});}
+function tickRefresh(){const t=$("#refreshtxt");
+ var meta=window.__META__||{};
+ var stamp=meta.lastUpdated||meta.refreshedLine||fmtLoaded();
+ t.textContent="Last update "+stamp;}
 setInterval(tickRefresh,1000);
 
 /* ===== AUDIT ENGINE =====
@@ -583,10 +586,4 @@ try{ if(window.__META__){
 } // end runApp</script>
 <script>
 if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function () {
-    navigator.serviceWorker.register('sw.js').catch(function(e){console.warn('SW registration failed', e);});
-  });
-}
-</script>
-</body>
-</html>
+  window.addEventListener('load
