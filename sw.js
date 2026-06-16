@@ -2,7 +2,7 @@
 // App shell is cached so it loads instantly and works offline.
 // data.json is ALWAYS fetched fresh from the network when online, so you see
 // the latest scores every time you open the app — no re-uploading needed.
-const CACHE = 'fifa2026-hub-v5';
+const CACHE = 'fifa2026-hub-v6';
 const SHELL = [
   './',
   './index.html',

@@ -411,6 +411,10 @@ fetch('data.json?ts=' + Date.now()).then(r=>r.json()).then(D=>{
 
 function runApp(){
 
+/* flag() and rowClass() are render logic (read CODE/FAVS/DOGS from data.json); kept in the app shell */
+function flag(t,cls){const c=CODE[t];if(!c)return "";return `<img class="flag-img ${cls||''}" src="https://flagcdn.com/w40/${c}.png" srcset="https://flagcdn.com/w80/${c}.png 2x" alt="${c.toUpperCase()}" loading="lazy">`;}
+const rowClass=t=>t==="Australia"?"aus":(FAVS.includes(t)?"fav":(DOGS.includes(t)?"dog":""));
+
 function toAWST(et){if(!et||et==="FT")return "FT";const m=et.match(/(\d+):(\d+)\s*(AM|PM)/i);if(!m)return et;let h=+m[1]%12;if(m[3].toUpperCase()==="PM")h+=12;let mins=h*60+ +m[2]+720;const day=Math.floor(mins/1440);mins%=1440;let H=Math.floor(mins/60),M=mins%60;const ap=H>=12?"PM":"AM";let h12=H%12;if(h12===0)h12=12;return `${h12}:${String(M).padStart(2,"0")} ${ap}${day>0?" (+1)":""}`;}
 function matchState(m){const bad=["FINISHED","FT","POSTPONED","CANCELLED","DELAYED","SUSPENDED"];if(m.status==="IN_PLAY"&&m.ref>0&&m.ref<=90&&m.kickoffPassed===true)return {label:"LIVE",cls:"b-live",live:true};if(m.status==="FINISHED"||m.status==="FT")return {label:"Full time",cls:"b-ft"};if(bad.includes(m.status))return {label:m.status.toLowerCase(),cls:"b-sched"};if(m.status==="SCHEDULED")return {label:"Scheduled",cls:"b-sched"};return {label:"Status unconfirmed",cls:"b-unconf"};}
 
@@ -576,8 +580,7 @@ $("#reloadbtn").onclick=()=>{loadedAt=Date.now();$("#refresh").classList.remove(
 try{ if(window.__META__){
   if(window.__META__.standtag){ var _st=document.querySelector('#standtag'); if(_st) _st.textContent=window.__META__.standtag; }
 }}catch(e){}
-} // end runApp
-</script>
+} // end runApp</script>
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function () {
@@ -586,4 +589,4 @@ if ('serviceWorker' in navigator) {
 }
 </script>
 </body>
-</html>                                                                                                                                                                               
+</html>
