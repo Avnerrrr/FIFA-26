@@ -280,23 +280,23 @@
    ],
    [
     "Ecuador",
-    1,
-    0,
-    0,
-    1,
+    2,
     0,
     1,
-    0
+    1,
+    0,
+    1,
+    1
    ],
    [
     "Curaçao",
+    2,
+    0,
     1,
-    0,
-    0,
     1,
     1,
     7,
-    0
+    1
    ]
   ],
   "F": [
@@ -597,6 +597,17 @@
  "RECENT": [
   {
    "grp": "Group E",
+   "h": "Ecuador",
+   "a": "Curaçao",
+   "hs": 0,
+   "as": 0,
+   "hsc": "—",
+   "asc": "—",
+   "city": "Kansas City",
+   "date": "Jun 20"
+  },
+  {
+   "grp": "Group E",
    "h": "Germany",
    "a": "Ivory Coast",
    "hs": 2,
@@ -803,60 +814,38 @@
    "asc": "—",
    "city": "Kansas City",
    "date": "Jun 16"
-  },
-  {
-   "grp": "Group F",
-   "h": "Sweden",
-   "a": "Tunisia",
-   "hs": 5,
-   "as": 1,
-   "hsc": "Ayari 27', Ayari 42', Summerville 55', Summerville 70', Summerville 90+2'",
-   "asc": "—",
-   "city": "—",
-   "date": "Jun 15"
-  },
-  {
-   "grp": "Group H",
-   "h": "Spain",
-   "a": "Cape Verde",
-   "hs": 0,
-   "as": 0,
-   "hsc": "",
-   "asc": "",
-   "city": "Atlanta",
-   "date": "Jun 15"
   }
  ],
  "NEWS": [
   {
    "cat": "tournament",
-   "h": "Tunisia become first team to sack their coach mid-tournament",
-   "s": "Hours after a 5-1 hammering by Sweden in their Group F opener, Tunisia's federation tore up Sabri Lamouchi's contract — the first dismissal of the 2026 finals. Mondher Kebaier was handed the reins on an interim basis ahead of a now must-win meeting with Japan.",
-   "src": "Sky Sports / Goal / Fox Sports"
+   "h": "Curaçao make history as Eloy Room's 15 saves earn a first World Cup point",
+   "s": "The smallest nation ever to reach a World Cup held Ecuador to a goalless draw in Kansas City, with 39-year-old keeper Eloy Room making 15 saves — the most by a goalkeeper in a finals match in decades. Ecuador's 15 efforts without scoring were the most in a World Cup game since 1966.",
+   "src": "ESPN / Outlook India"
   },
   {
    "cat": "tournament",
-   "h": "Iran ordered out of the U.S. hours after their opener",
-   "s": "Coach Amir Ghalenoei said his squad was put on a plane back to its Tijuana base the same night as the 2-2 draw with New Zealand, despite all three group games being in the States. “Perhaps our team is the most oppressed at the whole World Cup,” he said; Iran says it will complain to FIFA.",
-   "src": "ESPN / CBS News / Fox Sports"
+   "h": "Almirón is first player ever red-carded under FIFA's mouth-covering rule",
+   "s": "Paraguay's Miguel Almirón became the first man sent off under a new 2026 law banning players from covering their mouths to hide what they say, after an exchange with Türkiye's Mert Müldür. Paraguay still won 1-0 with ten men — and knocked Türkiye out.",
+   "src": "ESPN / Fox Sports / Al Jazeera"
   },
   {
    "cat": "tournament",
-   "h": "FIFA's dynamic ticket prices keep sliding as kickoff nears",
-   "s": "After a backlash over fees that topped $6,000 for marquee games, group-stage resale listings have fallen sharply — the cheapest entry dropping from around $184 to $134 between February and May. Critics still say early-booking international fans were priced out long before the discounts arrived.",
-   "src": "Quartz / U.S. Chamber of Commerce / RTÉ"
+   "h": "World Cup smashes its all-time daily attendance record",
+   "s": "A total of 281,223 fans poured through the gates across four matches on June 16, surpassing a mark that had stood since USA '94. More than 1.5 million spectators had attended by mid-tournament, with the USA's opener drawing a record 27.5 million U.S. TV viewers.",
+   "src": "FIFA / Yahoo Sports / Goal"
   },
   {
    "cat": "tournament",
-   "h": "Heat and the hydration-break debate dominate the group stage",
-   "s": "With afternoon kickoffs played in fierce summer heat across U.S. host cities, mandatory cooling breaks have become a talking point — players welcome the relief while pundits ask whether the stoppages are really about hydration or about squeezing in commercial time.",
-   "src": "ESPN / Climate Central"
+   "h": "Scientists warn FIFA that the real heat danger is in the stands",
+   "s": "With most host stadiums open-air and afternoon kickoffs played in fierce summer heat, medical experts say moving games to evenings isn't enough — and that older, dehydrated or unacclimatised fans queueing for hours outside are more exposed than the athletes.",
+   "src": "The Conversation / Climate Central / AccuWeather"
   },
   {
    "cat": "tournament",
-   "h": "Cape Verde's keeper Vozinha goes viral after stopping Spain",
-   "s": "The 39-year-old goalkeeper's man-of-the-match display in a shock goalless draw with favourites Spain turned him into an overnight sensation, reportedly gaining millions of new social-media followers as the islanders announced themselves on the world stage.",
-   "src": "ESPN / BBC Sport"
+   "h": "FIFA's dynamic ticket prices keep sliding as games sell through",
+   "s": "After a backlash over marquee-game fees that topped $6,000, group-stage resale listings have fallen sharply — the cheapest entry dropping from around $184 to $134 between February and May. Critics still argue early-booking international fans were priced out long before the discounts arrived.",
+   "src": "Quartz / RTÉ"
   }
  ],
  "TOURN": [
@@ -1339,8 +1328,8 @@
   }
  ],
  "meta": {
-  "lastUpdated": "Sun, Jun 21, 2026, 6:30 AM AWST",
-  "standtag": "As of Jun 21, 6:30 AM AWST · Groups A-D MD2 + E-L MD1 locked, plus Jun 20 results Netherlands 5-1 Sweden and Germany 2-1 Ivory Coast now added · Curaçao-Ecuador (KO ~midnight UTC) had not finished at refresh time",
-  "refreshedLine": "Refreshed Jun 21, 2026 (6:30 AM AWST). Added two confirmed Jun 20 results: Netherlands beat Sweden 5-1 (Brobbey 2, Gakpo 2, Summerville; Elanga for Sweden) and Germany edged Ivory Coast 2-1 (Undav 2; Kessié), verified by ESPN, Sky and Business Standard. Group E and F standings recomputed — Germany top E on 6 pts, Netherlands lead the Sweden race in F on 4 pts. Top scorers updated (Undav, Brobbey, Gakpo on 2). Curaçao-Ecuador kicked off around midnight UTC so its result is still pending. NEWS rotated to fresh verified off-pitch stories: Tunisia sacking Lamouchi, Iran ordered out of the U.S. after its opener, falling dynamic ticket prices, the heat/hydration-break debate, and Cape Verde keeper Vozinha's viral rise."
+  "lastUpdated": "Sun, Jun 21, 2026, 12:20 PM AWST",
+  "standtag": "As of Jun 21, 12:20 PM AWST · All Jun 20 results now locked, including Ecuador 0-0 Curaçao (Curaçao's first-ever World Cup point) · Group E standings recomputed · Sunday Jun 21 fixtures (Belgium-Iran, Egypt-NZ, Spain-Saudi Arabia, Cape Verde-Uruguay) had not kicked off at refresh time",
+  "refreshedLine": "Refreshed Jun 21, 2026 (12:20 PM AWST). Added the final outstanding Jun 20 result: Ecuador 0-0 Curaçao in Kansas City, where keeper Eloy Room made 15 saves to earn Curaçao — the smallest nation ever at a World Cup — its first finals point (verified by ESPN and Outlook India). Group E standings recomputed: Germany top on 6 pts, Ivory Coast 3, Ecuador and Curaçao 1 each. No goalscorers, so SCORERS unchanged. Sunday's Group G/H fixtures had not started at refresh time. NEWS rotated to fresh verified surrounding-the-cup angles: Curaçao's historic point and Room's heroics, Almirón's first-ever red card under FIFA's new mouth-covering rule, the record 281,223 single-day attendance, scientists warning FIFA about heat risk to fans, and falling dynamic ticket prices."
  }
 }
