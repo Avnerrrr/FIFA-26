@@ -343,13 +343,33 @@
   ],
   "G": [
    [
+    "Iran",
+    2,
+    0,
+    2,
+    0,
+    2,
+    2,
+    2
+   ],
+   [
     "Belgium",
+    2,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2
+   ],
+   [
+    "New Zealand",
     1,
     0,
     1,
     0,
-    1,
-    1,
+    2,
+    2,
     1
    ],
    [
@@ -361,38 +381,18 @@
     1,
     1,
     1
-   ],
-   [
-    "Iran",
-    1,
-    0,
-    1,
-    0,
-    2,
-    2,
-    1
-   ],
-   [
-    "New Zealand",
-    1,
-    0,
-    1,
-    0,
-    2,
-    2,
-    1
    ]
   ],
   "H": [
    [
     "Spain",
+    2,
+    1,
     1,
     0,
-    1,
+    4,
     0,
-    0,
-    0,
-    1
+    4
    ],
    [
     "Uruguay",
@@ -405,24 +405,24 @@
     1
    ],
    [
-    "Saudi Arabia",
-    1,
-    0,
-    1,
-    0,
-    1,
-    1,
-    1
-   ],
-   [
     "Cape Verde",
     1,
     0,
-    0,
     1,
     0,
     0,
-    0
+    0,
+    1
+   ],
+   [
+    "Saudi Arabia",
+    2,
+    0,
+    1,
+    1,
+    1,
+    5,
+    1
    ]
   ],
   "I": [
@@ -595,6 +595,28 @@
   ]
  },
  "RECENT": [
+  {
+   "grp": "Group H",
+   "h": "Spain",
+   "a": "Saudi Arabia",
+   "hs": 4,
+   "as": 0,
+   "hsc": "Yamal 10', Oyarzabal 21', Oyarzabal 24', Al Tambakti 49' (og)",
+   "asc": "—",
+   "city": "Atlanta",
+   "date": "Jun 21"
+  },
+  {
+   "grp": "Group G",
+   "h": "Belgium",
+   "a": "Iran",
+   "hs": 0,
+   "as": 0,
+   "hsc": "—",
+   "asc": "—",
+   "city": "Inglewood",
+   "date": "Jun 21"
+  },
   {
    "grp": "Group E",
    "h": "Ecuador",
@@ -819,33 +841,33 @@
  "NEWS": [
   {
    "cat": "tournament",
-   "h": "NY and NJ attorneys general subpoena FIFA over World Cup ticket prices",
-   "s": "FIFA's first use of dynamic pricing has pushed many group-stage tickets far above any previous World Cup, with cheapest official seats listed in the hundreds and some resale listings into the thousands. The attorneys general of New York and New Jersey have issued a subpoena questioning the multi-category selling process and FIFA's cut on resales.",
-   "src": "ESPN / PBS / Bloomberg / RTÉ"
+   "h": "Iran ordered out of the U.S. within hours of every match, sparking FIFA complaint",
+   "s": "Iran's team must enter the country only the day before each game and leave the same night, coach Amir Ghalenoei says, calling his side 'perhaps the most oppressed' at the Cup after a five-hour post-match haul back to Tijuana. Iran has lodged a formal complaint with FIFA over the restrictions.",
+   "src": "ESPN / Al Jazeera / CBS / The Hill"
   },
   {
    "cat": "tournament",
    "h": "Cape Verde's 40-year-old keeper Vozinha becomes the Cup's breakout star",
-   "s": "Josimar 'Vozinha' Dias made seven saves to hold favorites Spain to a 0-0 draw on debutants Cape Verde's World Cup bow, was named Man of the Match, and saw his Instagram following rocket from around 50,000 to roughly 14 million within a day. Nicknamed 'granny' in Portuguese, he dominated players half his age.",
-   "src": "ESPN / Yahoo Sports / Al Jazeera / NBC"
-  },
-  {
-   "cat": "tournament",
-   "h": "Attendance races past 1 million with stadiums near-capacity",
-   "s": "FIFA says more than 1 million fans attended the first 16 matches at roughly 99% of capacity, and one four-match day drew a combined 281,223 — billed as a record for four World Cup games on the same date. Mexico's opener against South Africa drew the largest single crowd so far at 80,824.",
-   "src": "FIFA / ESPN / Yahoo Sports"
+   "s": "Josimar 'Vozinha' Dias made a string of saves to hold favorites Spain to a 0-0 draw on debutants Cape Verde's World Cup bow and was named Man of the Match. His Instagram following has rocketed past 5 million as the tiny island nation's defensive masterclass captures the tournament's imagination.",
+   "src": "ESPN / Yahoo Sports / Al Jazeera"
   },
   {
    "cat": "tournament",
    "h": "Mandatory hydration breaks unite players, coaches and fans — in frustration",
-   "s": "New fixed drinks breaks in each half, applied at all 104 matches regardless of conditions, have drawn boos in stadiums and criticism from coaches including France's Didier Deschamps and Spain's Luis de la Fuente, who argue they break momentum in climate-controlled venues even as they help in genuine heat.",
-   "src": "Al Jazeera / ESPN / Yahoo Sports"
+   "s": "Fixed drinks breaks applied at all 104 matches regardless of conditions have drawn boos and criticism from coaches including France's Didier Deschamps, who says they split each half into 'almost four quarters.' Spain's Luis de la Fuente concedes they help in genuine heat but feel needless inside climate-controlled stadiums.",
+   "src": "Yahoo Sports / ESPN / Al Jazeera"
   },
   {
    "cat": "tournament",
-   "h": "Rights groups warn of 'climate of fear' as visa denials and ICE shadow the Cup",
-   "s": "More than 120 immigrants' rights organizations have issued travel warnings, with ICE confirmed present at stadiums. A Somali referee was turned away despite a valid visa, an Iraqi player and team photographer were detained for hours at O'Hare, and groups of Scottish and Moroccan ticket-holders have reported revoked authorizations or denied visas.",
-   "src": "ACLU / NPR / Amnesty International / Yahoo Sports"
+   "h": "Tunisia sack coach mid-tournament after 5-1 rout, hand reins to Hervé Renard",
+   "s": "Sabri Lamouchi became the first coach officially dismissed during the 2026 finals, axed one game in following a 5-1 Group F humbling by Sweden amid reported dressing-room tension. Veteran Hervé Renard has been drafted in to steer Tunisia through the rest of the group stage.",
+   "src": "ESPN / Fox Sports / Fox News"
+  },
+  {
+   "cat": "tournament",
+   "h": "Heat the looming co-favorite: scientists warn most matches risk performance-impairing conditions",
+   "s": "Climate analysis finds 97 of the 104 fixtures carry an elevated risk of performance-impairing heat, with Miami, Houston, Dallas, Mexico City and Guadalajara the hottest venues. Organizers have leaned on more evening kickoffs and the contentious mandatory hydration breaks to cope.",
+   "src": "Climate Central / Scientific American / Al Jazeera"
   }
  ],
  "TOURN": [
@@ -853,7 +875,7 @@
    "ic": "🏆",
    "nm": "FIFA World Cup 2026",
    "sub": "USA · Canada · Mexico",
-   "desc": "Group stage live. 48 teams, first match Jun 11.",
+   "desc": "Group stage, Matchday 2 underway. 48 teams; Round of 32 begins Jun 28.",
    "status": "LIVE",
    "cls": "b-tournament"
   },
@@ -900,49 +922,49 @@
  ],
  "MARQUEE": [
   {
-   "day": "Sat · Jun 20",
-   "grp": "Group F",
-   "h": "Netherlands",
-   "a": "Sweden",
-   "et": "3:00 PM",
-   "std": "NRG Stadium",
-   "city": "Houston, USA"
-  },
-  {
-   "day": "Sat · Jun 20",
-   "grp": "Group E",
-   "h": "Germany",
-   "a": "Ivory Coast",
-   "et": "6:00 PM",
-   "std": "Mercedes-Benz Stadium",
-   "city": "Atlanta, USA"
-  },
-  {
-   "day": "Sun · Jun 21",
-   "grp": "Group H",
-   "h": "Spain",
-   "a": "Saudi Arabia",
-   "et": "6:00 PM",
+   "day": "Mon · Jun 22",
+   "grp": "Group J",
+   "h": "Argentina",
+   "a": "Austria",
+   "et": "1:00 PM",
    "std": "AT&T Stadium",
    "city": "Arlington, USA"
   },
   {
    "day": "Mon · Jun 22",
-   "grp": "Group J",
-   "h": "Argentina",
-   "a": "Austria",
-   "et": "9:00 PM",
-   "std": "SoFi Stadium",
-   "city": "Inglewood, USA"
+   "grp": "Group I",
+   "h": "Norway",
+   "a": "Senegal",
+   "et": "8:00 PM",
+   "std": "MetLife Stadium",
+   "city": "East Rutherford, USA"
+  },
+  {
+   "day": "Mon · Jun 22",
+   "grp": "Group I",
+   "h": "France",
+   "a": "Iraq",
+   "et": "5:00 PM",
+   "std": "Lincoln Financial Field",
+   "city": "Philadelphia, USA"
   },
   {
    "day": "Tue · Jun 23",
    "grp": "Group L",
    "h": "England",
    "a": "Ghana",
-   "et": "9:00 PM",
-   "std": "Mercedes-Benz Stadium",
-   "city": "Atlanta, USA"
+   "et": "4:00 PM",
+   "std": "Gillette Stadium",
+   "city": "Foxborough, USA"
+  },
+  {
+   "day": "Tue · Jun 23",
+   "grp": "Group K",
+   "h": "Colombia",
+   "a": "DR Congo",
+   "et": "10:00 PM",
+   "std": "Estadio Akron",
+   "city": "Guadalajara, MEX"
   }
  ],
  "WEEK": [
@@ -1231,6 +1253,14 @@
    "wiki": "Jonathan David"
   },
   {
+   "n": "Mikel Oyarzabal",
+   "ctry": "Spain",
+   "club": "Real Sociedad",
+   "g": 2,
+   "init": "MO",
+   "wiki": "Mikel Oyarzabal"
+  },
+  {
    "n": "Matheus Cunha",
    "ctry": "Brazil",
    "club": "Manchester United",
@@ -1328,8 +1358,8 @@
   }
  ],
  "meta": {
-  "lastUpdated": "Mon, Jun 22, 2026, 12:07 AM AWST",
-  "standtag": "As of Jun 22, 12:07 AM AWST · All results through Jun 20 remain locked (latest: Türkiye-Paraguay, Netherlands-Sweden, Germany-Ivory Coast, Curaçao-Ecuador) · Sunday Jun 21 Group G/H fixtures (Belgium-Iran, Egypt-NZ, Spain-Saudi Arabia, Cape Verde-Uruguay) still in progress / not confirmed final by two sources at refresh time — ESPN standings still show all Group H sides at 1 GP, 1 pt · No new finals verified → GROUPS, RECENT, SCORERS, WEEK, MARQUEE unchanged · NEWS rotated to fresh verified surrounding-the-cup angles",
-  "refreshedLine": "Refreshed Jun 22, 2026 (12:07 AM AWST). No new match results could be confirmed by two independent sources since the last run — ESPN's live standings still list every Group H team at 1 game played and 1 point, so the Jun 21 Group G/H matches are not yet final. GROUPS, RECENT, SCORERS, WEEK and MARQUEE are therefore unchanged. NEWS was fully rotated to five fresh, multi-source verified off-the-pitch stories: the NY/NJ attorneys-general subpoena over dynamic ticket pricing (ESPN/PBS/Bloomberg/RTÉ); Cape Verde keeper Vozinha's overnight rise to ~14M followers after holding Spain (ESPN/Yahoo/Al Jazeera/NBC); attendance past 1M at ~99% capacity (FIFA/ESPN/Yahoo); mandatory hydration breaks uniting players, coaches and fans in frustration (Al Jazeera/ESPN/Yahoo); and rights groups' 'climate of fear' warning amid ICE presence and visa denials (ACLU/NPR/Amnesty/Yahoo)."
+  "lastUpdated": "Mon, Jun 22, 2026, 6:20 AM AWST",
+  "standtag": "As of Jun 22, 6:20 AM AWST · Two new Jun 21 finals locked: Spain 4-0 Saudi Arabia (Group H) and Belgium 0-0 Iran (Group G), both confirmed by 2+ sources (ESPN, Sky, FIFA, Opta) · GROUPS G & H recomputed (Spain to 4 pts and top of H; Iran & Belgium level on 2 in G); Cape Verde's opening-draw point corrected · SCORERS: Oyarzabal added on 2 (Messi & David still lead on 3) · Uruguay-Cape Verde and New Zealand-Egypt had not kicked off / not final at refresh time, so left pending · NEWS rotated to five fresh, multi-source verified surrounding-the-cup stories",
+  "refreshedLine": "Refreshed Jun 22, 2026 (6:20 AM AWST). Added two newly confirmed Jun 21 results: Spain 4-0 Saudi Arabia (Yamal, Oyarzabal x2, Al Tambakti og) and Belgium 0-0 Iran (Ngoy red card), each verified by at least two independent sources. Group H now has Spain on 4 points and top; Group G has Iran and Belgium level on 2. Cape Verde's point from the 0-0 draw with Spain was also corrected. Oyarzabal joins the 2-goal group in SCORERS, with Messi and David still leading the Golden Boot race on 3. The later Jun 21 games (Uruguay-Cape Verde, New Zealand-Egypt) had not finished at refresh time and were left unchanged. NEWS rotated to five fresh, multi-source stories: Iran's enforced same-night U.S. exits and FIFA complaint (ESPN/Al Jazeera/CBS); Cape Verde keeper Vozinha's breakout (ESPN/Yahoo/Al Jazeera); the hydration-break backlash (Yahoo/ESPN/Al Jazeera); Tunisia sacking Lamouchi mid-tournament for Renard (ESPN/Fox); and climate scientists' heat warnings across host venues (Climate Central/Scientific American/Al Jazeera)."
  }
 }
