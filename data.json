@@ -819,33 +819,33 @@
  "NEWS": [
   {
    "cat": "tournament",
-   "h": "Hydration breaks become the talking point of the tournament — and almost everyone hates them",
-   "s": "FIFA's new mandatory three-minute cooling breaks, called 22 minutes into each half regardless of conditions, have united players, coaches and fans in frustration. Netherlands captain Virgil van Dijk suggested they mainly hand broadcasters extra ad inventory, while coaches note they make little sense inside climate-controlled stadiums.",
-   "src": "Al Jazeera / ESPN / Yahoo Sports / NBC"
+   "h": "NY and NJ attorneys general subpoena FIFA over World Cup ticket prices",
+   "s": "FIFA's first use of dynamic pricing has pushed many group-stage tickets far above any previous World Cup, with cheapest official seats listed in the hundreds and some resale listings into the thousands. The attorneys general of New York and New Jersey have issued a subpoena questioning the multi-category selling process and FIFA's cut on resales.",
+   "src": "ESPN / PBS / Bloomberg / RTÉ"
   },
   {
    "cat": "tournament",
-   "h": "Rights groups warn fans the World Cup is being played in a 'climate of fear'",
-   "s": "More than 120 civil and human-rights organisations, including the ACLU, caution that fans, players and journalists risk detention, device searches and racial profiling, with ICE agents stationed at stadiums. Seven of the U.S. host cities are sanctuary jurisdictions caught in the standoff.",
-   "src": "ACLU / Human Rights Watch / Bloomberg / Yahoo Sports"
+   "h": "Cape Verde's 40-year-old keeper Vozinha becomes the Cup's breakout star",
+   "s": "Josimar 'Vozinha' Dias made seven saves to hold favorites Spain to a 0-0 draw on debutants Cape Verde's World Cup bow, was named Man of the Match, and saw his Instagram following rocket from around 50,000 to roughly 14 million within a day. Nicknamed 'granny' in Portuguese, he dominated players half his age.",
+   "src": "ESPN / Yahoo Sports / Al Jazeera / NBC"
   },
   {
    "cat": "tournament",
-   "h": "Attendance races past 1.5 million as stadiums run near-full",
-   "s": "The expanded 48-team tournament hit one million spectators in just five days and topped 1.5 million by June 17, running at a 99.5% fill rate and roughly 63,000 per match. FIFA projects total attendance could reach 6.5 million, shattering the 1994 record of about 3.5 million.",
-   "src": "FIFA / beIN Sports / ESPN / Goal"
+   "h": "Attendance races past 1 million with stadiums near-capacity",
+   "s": "FIFA says more than 1 million fans attended the first 16 matches at roughly 99% of capacity, and one four-match day drew a combined 281,223 — billed as a record for four World Cup games on the same date. Mexico's opener against South Africa drew the largest single crowd so far at 80,824.",
+   "src": "FIFA / ESPN / Yahoo Sports"
   },
   {
    "cat": "tournament",
-   "h": "Experts say the heat threat extends well beyond the players",
-   "s": "With most host venues open-air and many afternoon kickoffs in fierce summer heat, climate and medical experts warn that older, dehydrated or unacclimatised fans queueing for hours are more exposed than the athletes. One in four games is projected to be played in very hot conditions.",
-   "src": "Al Jazeera / ESPN / The Conversation"
+   "h": "Mandatory hydration breaks unite players, coaches and fans — in frustration",
+   "s": "New fixed drinks breaks in each half, applied at all 104 matches regardless of conditions, have drawn boos in stadiums and criticism from coaches including France's Didier Deschamps and Spain's Luis de la Fuente, who argue they break momentum in climate-controlled venues even as they help in genuine heat.",
+   "src": "Al Jazeera / ESPN / Yahoo Sports"
   },
   {
    "cat": "tournament",
-   "h": "Off-pitch politics keep crowding the football, from protest art to trophy protocol",
-   "s": "Geopolitics has shadowed the cup: an activist installed protest pieces at FIFA's Zurich HQ over U.S. migrant policy, while FIFA signalled it has no objection to President Trump breaking presentation protocol to hand the trophy to the winning captain — a prospect that has drawn sharp criticism.",
-   "src": "Council on Foreign Relations / Yahoo Sports / Radio Rebelde"
+   "h": "Rights groups warn of 'climate of fear' as visa denials and ICE shadow the Cup",
+   "s": "More than 120 immigrants' rights organizations have issued travel warnings, with ICE confirmed present at stadiums. A Somali referee was turned away despite a valid visa, an Iraqi player and team photographer were detained for hours at O'Hare, and groups of Scottish and Moroccan ticket-holders have reported revoked authorizations or denied visas.",
+   "src": "ACLU / NPR / Amnesty International / Yahoo Sports"
   }
  ],
  "TOURN": [
@@ -1328,8 +1328,8 @@
   }
  ],
  "meta": {
-  "lastUpdated": "Sun, Jun 21, 2026, 6:25 PM AWST",
-  "standtag": "As of Jun 21, 6:25 PM AWST · All results through Jun 20 remain locked (latest: Ecuador 0-0 Curaçao) · Sunday Jun 21 Group G/H fixtures (Belgium-Iran, Egypt-NZ, Spain-Saudi Arabia, Cape Verde-Uruguay) in progress / not yet confirmed by two sources at refresh time · No new finals verified → standings, scorers and fixtures unchanged · NEWS rotated to fresh verified surrounding-the-cup angles",
-  "refreshedLine": "Refreshed Jun 21, 2026 (6:25 PM AWST). No new match results could be confirmed by two independent sources since the last run, so GROUPS, RECENT, SCORERS, WEEK and MARQUEE are unchanged. NEWS was fully rotated to five fresh, multi-source verified off-the-pitch stories: the tournament-wide backlash to FIFA's mandatory hydration breaks (Al Jazeera/ESPN/Yahoo/NBC); rights groups' 'climate of fear' travel warning with ICE at stadiums (ACLU/HRW/Bloomberg/Yahoo); attendance racing past 1.5M at a 99.5% fill rate (FIFA/beIN/ESPN/Goal); experts warning the heat risk extends to fans, not just players (Al Jazeera/ESPN/The Conversation); and off-pitch politics from protest art at FIFA HQ to Trump trophy-protocol (CFR/Yahoo/Radio Rebelde)."
+  "lastUpdated": "Mon, Jun 22, 2026, 12:07 AM AWST",
+  "standtag": "As of Jun 22, 12:07 AM AWST · All results through Jun 20 remain locked (latest: Türkiye-Paraguay, Netherlands-Sweden, Germany-Ivory Coast, Curaçao-Ecuador) · Sunday Jun 21 Group G/H fixtures (Belgium-Iran, Egypt-NZ, Spain-Saudi Arabia, Cape Verde-Uruguay) still in progress / not confirmed final by two sources at refresh time — ESPN standings still show all Group H sides at 1 GP, 1 pt · No new finals verified → GROUPS, RECENT, SCORERS, WEEK, MARQUEE unchanged · NEWS rotated to fresh verified surrounding-the-cup angles",
+  "refreshedLine": "Refreshed Jun 22, 2026 (12:07 AM AWST). No new match results could be confirmed by two independent sources since the last run — ESPN's live standings still list every Group H team at 1 game played and 1 point, so the Jun 21 Group G/H matches are not yet final. GROUPS, RECENT, SCORERS, WEEK and MARQUEE are therefore unchanged. NEWS was fully rotated to five fresh, multi-source verified off-the-pitch stories: the NY/NJ attorneys-general subpoena over dynamic ticket pricing (ESPN/PBS/Bloomberg/RTÉ); Cape Verde keeper Vozinha's overnight rise to ~14M followers after holding Spain (ESPN/Yahoo/Al Jazeera/NBC); attendance past 1M at ~99% capacity (FIFA/ESPN/Yahoo); mandatory hydration breaks uniting players, coaches and fans in frustration (Al Jazeera/ESPN/Yahoo); and rights groups' 'climate of fear' warning amid ICE presence and visa denials (ACLU/NPR/Amnesty/Yahoo)."
  }
 }
